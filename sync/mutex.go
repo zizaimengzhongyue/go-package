@@ -16,7 +16,7 @@ func Increase() {
 		}()
 	}
 	wg.Wait()
-	fmt.Printf("预期得到的值是 1000，实际得到的值是 %d\n", a)
+	fmt.Printf("预期得到的值是 10000，实际得到的值是 %d\n", a)
 }
 
 func Mutex() {
